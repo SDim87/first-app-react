@@ -1,0 +1,23 @@
+
+.list {
+  list-style-type: none;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.link {
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+
+.link.active {
+  color: #c02727;
+  pointer-events: none;
+}
+
+.link:hover {
+  color: #777;
+}

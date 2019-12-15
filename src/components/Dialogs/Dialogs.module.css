@@ -1,0 +1,27 @@
+.container {
+  padding: 24px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.people {
+  border-right: 1px solid #000;
+  width: 20%;
+  flex: 0 0 auto;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.messages {
+  padding: 0 24px;
+}

@@ -1,0 +1,6 @@
+
+.container {
+  grid-area: nav;
+  padding: 16px;
+  background-color: #fbfbfb;
+}

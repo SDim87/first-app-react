@@ -1,0 +1,19 @@
+.item {
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.item:hover {
+  color: #777;
+}
+
+.item.active {
+  color: #c02727;
+  pointer-events: none;
+}

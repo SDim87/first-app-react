@@ -1,0 +1,22 @@
+.container {
+  margin: 24px 0 40px;
+  display: flex;
+}
+
+.logo {
+  margin-right: 24px;
+  width: 100px;
+  height: 100px;
+}
+
+.data {
+  list-style-type: none;
+}
+
+.item {
+  font-weight: 500;
+}
+
+.item span {
+  font-weight: 400;
+}
